@@ -14,7 +14,7 @@ body {
 	background: #014B76;
 	height: 100%;
 	color: white;
-	margin: 0;
+	margin: 0 auto;
 	font-family: "Segoe UI", "冬青黑体简体中文", "Hiragino Sans GB", "微软雅黑 Light", "微软雅黑", "MSYahei";
 }
 
@@ -30,7 +30,7 @@ a:hover {
 }
 
 .background {
-	position: fixed;
+	position: relative;
 	height: 100%;
 	width: 100%;
 }
@@ -44,8 +44,9 @@ a:hover {
 }
 
 .span-logo {
-	font-size: 3em;
-	color: #9faade;
+	top: 30%;
+	font-size: 4em;
+	color: #e5f0ce;
 	text-shadow: 0 0 0.1em #0280CB;
 }
 
@@ -55,8 +56,9 @@ a:hover {
 }
 
 .span-sublogo {
+	top: 35%;
 	font-size: 2em;
-	color: #3958ca;
+	color: #f6edf0;
 	text-shadow: 0 0 0.1em #0280CB;
 	margin: 4em auto;
 }
@@ -79,7 +81,7 @@ a:hover {
 }
 
 .about {
-	margin-top: 20em;
+	margin-top: 30em;
 }
 
 .hide {
@@ -90,9 +92,9 @@ a:hover {
 	height: 100%;
 }
 
-.main-content {
+/*.main-content {
 	position: relative;
 	top: 10%;
 	left: 20%;
-	width: 60%;
-}	
+	width: 80%;
+}	*/
